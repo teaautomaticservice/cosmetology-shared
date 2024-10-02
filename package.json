@@ -1,0 +1,25 @@
+{
+  "name": "cosmetology-shared",
+  "version": "1.0.0",
+  "main": "./src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teaautomaticservice/cosmetology-shared.git"
+  },
+  "author": "DahakaLab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teaautomaticservice/cosmetology-shared/issues"
+  },
+  "homepage": "https://github.com/teaautomaticservice/cosmetology-shared#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "date-fns": "^4.1.0",
+    "effector": "^23.2.3",
+    "effector-react": "^23.2.1"
+  }
+}
