@@ -6,6 +6,6 @@ export const interpolate = (
     if (Object.prototype.hasOwnProperty.call(params, key)) {
       return String(params[key]);
     }
-    return `{${key}}`; // если ключа нет — оставляем как есть
+    return `{${key}}`;
   });
 };
