@@ -5,7 +5,7 @@ type Params = Record<string, string | string[]>;
 
 export const useAppParams = <T extends Params = Params>(defaultInit?: T) => {
   const [searchParams, setSearchParams] = useSearchParams(defaultInit);
-  const [ params, setCurrentParams ] = useState<T>(defaultInit ?? {} as T);
+  const [params, setCurrentParams] = useState<T>(defaultInit ?? {} as T);
 
   const setParams = (params: T) => {
     if (params.page === '1') {
@@ -17,7 +17,7 @@ export const useAppParams = <T extends Params = Params>(defaultInit?: T) => {
     }
 
     setSearchParams(params);
-  }
+  };
 
   useEffect(() => {
     let newParams = {} as T;

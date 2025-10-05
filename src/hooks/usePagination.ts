@@ -26,5 +26,5 @@ export const usePagination = ({
   return {
     params,
     updatePaginationParams,
-  }
-}
+  };
+};
